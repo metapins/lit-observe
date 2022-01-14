@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "rxjs-example": "apps/rxjs-example",
+    "rxjs-example-e2e": "apps/rxjs-example-e2e"
+  }
+}
