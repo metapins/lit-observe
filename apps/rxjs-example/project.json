@@ -10,7 +10,7 @@
       "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/apps/rxjs-example",
-        "compiler": "babel",
+        "compiler": "swc",
         "index": "apps/rxjs-example/src/index.html",
         "baseHref": "/",
         "main": "apps/rxjs-example/src/main.ts",

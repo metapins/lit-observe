@@ -1,0 +1,33 @@
+{
+  "root": "libs/lit-observe",
+  "sourceRoot": "libs/lit-observe/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/lit-observe",
+        "main": "libs/lit-observe/src/index.ts",
+        "tsConfig": "libs/lit-observe/tsconfig.lib.json",
+        "assets": ["libs/lit-observe/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lit-observe/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/lit-observe"],
+      "options": {
+        "jestConfig": "libs/lit-observe/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": ["library"]
+}

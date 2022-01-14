@@ -1,0 +1,16 @@
+{
+  "name": "@metapins/lit-observe",
+  "version": "0.0.2",
+  "type": "commonjs",
+  "license": "MIT",
+  "homepage": "https://github.com/metapins/lit-observe",
+  "repository": {
+    "url": "https://github.com/metapins/lit-observe.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Marc Buils",
+    "email": "marc.buils@marcbuils.fr",
+    "url": "https://www.linkedin.com/in/marcbuils/"
+  }
+}
