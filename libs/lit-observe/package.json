@@ -12,5 +12,8 @@
     "name": "Marc Buils",
     "email": "marc.buils@marcbuils.fr",
     "url": "https://www.linkedin.com/in/marcbuils/"
+  },
+  "peerDependencies": {
+    "lit": "^2.1.1"
   }
 }
