@@ -1,5 +1,5 @@
 /** css/html from https://bbbootstrap.com/snippets/awesome-todo-list-template-25095891 */
-import { observe } from '@metapins/lit-observe'; // '@metapins/lit-observe';
+import { observe } from '@metapins/lit-observe';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { nanoid } from 'nanoid';
