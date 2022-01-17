@@ -10,7 +10,7 @@
         "outputPath": "dist/libs/lit-observe",
         "main": "libs/lit-observe/src/index.ts",
         "tsConfig": "libs/lit-observe/tsconfig.lib.json",
-        "assets": ["libs/lit-observe/*.md"]
+        "assets": ["*.md"]
       }
     },
     "lint": {

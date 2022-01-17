@@ -1,9 +1,18 @@
 {
   "name": "@metapins/lit-observe",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "commonjs",
   "license": "MIT",
   "homepage": "https://github.com/metapins/lit-observe",
+  "keywords": [
+    "lit",
+    "lit-html",
+    "lit-element",
+    "rxjs",
+    "aframe-element",
+    "metapins",
+    "aframe"
+  ],
   "repository": {
     "url": "https://github.com/metapins/lit-observe.git",
     "type": "git"
