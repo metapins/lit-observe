@@ -477,3 +477,7 @@ input[type='checkbox'] {
   .dropdown-item {
   display: flex !important;
 }
+
+.align-center {
+  text-align: center;
+}

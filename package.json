@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start": "serve ./dist/apps/rxjs-example/",
     "build": "nx build",
     "test": "nx test"
   },
@@ -13,6 +13,7 @@
     "lit": "^2.1.1",
     "nanoid": "^3.1.32",
     "regenerator-runtime": "0.13.7",
+    "serve": "^13.0.2",
     "tslib": "^2.0.0"
   },
   "devDependencies": {

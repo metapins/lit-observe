@@ -1,4 +1,9 @@
-/** css/html from https://bbbootstrap.com/snippets/awesome-todo-list-template-25095891 */
+/**
+ * lit-observe - Example with RxJS
+ * Demo: https://lit-observe-rxjs-example.herokuapp.com/
+ *
+ * css/html from https://bbbootstrap.com/snippets/awesome-todo-list-template-25095891
+ */
 import { observe } from '@metapins/lit-observe';
 import { html, LitElement, TemplateResult } from 'lit';
 import { customElement } from 'lit/decorators.js';
@@ -100,6 +105,13 @@ export class RxjsExampleElement extends LitElement {
                         )
                       )}
                     </ul>
+                  </div>
+
+                  <div class="align-center">
+                    <a
+                      href="https://github.com/metapins/lit-observe/blob/master/apps/rxjs-example/src/app/app.element.ts"
+                      >Source code - Github</a
+                    >
                   </div>
                 </div>
               </div>

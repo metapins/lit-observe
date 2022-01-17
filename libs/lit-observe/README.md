@@ -54,6 +54,11 @@ render() {
 }
 ```
 
+## Example
+### Todo-list with rxjs
+- Demo: https://lit-observe-rxjs-example.herokuapp.com/
+- Source code: https://github.com/metapins/lit-observe/blob/master/apps/rxjs-example/src/app/app.element.ts
+
 ## Building
 
 Run `nx build lit-observe` to build the library.
