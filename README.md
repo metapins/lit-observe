@@ -24,6 +24,7 @@ npm install @metapins/lit-observe
 
 ```typescript
 import { observe } from '@metapins/lit-observe';
+import { of } from 'rxjs';
 
 // ...
 title$ = of('Hello World');
@@ -39,6 +40,7 @@ render() {
 
 ```typescript
 import { observe } from '@metapins/lit-observe';
+import { of } from 'rxjs';
 
 // ...
 list$ = of([
