@@ -12,7 +12,8 @@
     "redux",
     "aframe-element",
     "metapins",
-    "aframe"
+    "aframe",
+    "lit-observe"
   ],
   "repository": {
     "url": "https://github.com/metapins/lit-observe.git",
